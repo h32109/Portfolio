@@ -1,0 +1,15 @@
+[flake8]
+max-line-length = 88
+select = C,E,F,W,B,B9
+ignore = E203, E501, W503
+exclude = __init__.py
+
+:tada: bootstrapping: back-end skeleton
+
+- add flake8 config file
+- add code style guide
+- add pyproject.toml file
+- add requirements.txt, requirements-test.txt
+- add setup.py
+- add essential folders
+- add back-end core skeleton
