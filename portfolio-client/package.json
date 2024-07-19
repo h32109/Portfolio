@@ -1,0 +1,69 @@
+{
+  "name": "portfolio-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.103",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "axios": "^1.7.2",
+    "bootstrap": "^5.3.3",
+    "env-cmd": "^10.1.0",
+    "lodash": "^4.17.21",
+    "mobx-react-lite": "^4.0.7",
+    "moment": "^2.30.1",
+    "node-sass": "^9.0.0",
+    "polished": "^4.3.1",
+    "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
+    "react-scripts": "5.0.1",
+    "styled-components": "^6.1.12",
+    "styled-reset": "^4.5.2",
+    "typescript": "^5.5.3",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "build-dev": "env-cmd -f config/.env.dev react-scripts build",
+    "build-main": "env-cmd -f ./config/.env.main react-scripts build",
+    "build-release": "BUILD_PATH='../static/dist' env-cmd -f ./config/.env.release react-scripts build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "autoprefixer": "^10.4.2",
+    "cypress": "^9.5.3",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23"
+  },
+  "resolutions": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
